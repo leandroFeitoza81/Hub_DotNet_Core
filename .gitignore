@@ -6,4 +6,5 @@ riderModule.iml
 .idea/
 /bin/
 /obj/
+.vscode
 

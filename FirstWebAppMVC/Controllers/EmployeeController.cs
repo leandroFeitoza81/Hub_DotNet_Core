@@ -5,6 +5,10 @@ namespace FirstWebAppMVC.Controllers;
 
 public class EmployeeController : Controller
 {
+    public IActionResult Index()
+    {
+        return View(Repository.AllEmployees);
+    }
     // GET
     public IActionResult Create()
     {
